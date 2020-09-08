@@ -1,0 +1,104 @@
+{
+  "name": "pa-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "0.1.0",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.3.2",
+    "@testing-library/user-event": "7.1.2",
+    "@types/jest": "24.0.0",
+    "@types/node": "12.12.22",
+    "@types/react": "16.9.0",
+    "@types/react-dom": "16.9.0",
+    "@types/react-router-dom": "5.1.5",
+    "antd": "4.5.1",
+    "axios": "0.19.2",
+    "currency-formatter": "^1.5.6",
+    "history": "5.0.0",
+    "moment": "^2.27.0",
+    "polished": "3.6.5",
+    "react": "16.13.1",
+    "react-currency-masked-input": "^2.5.0",
+    "react-dom": "16.13.1",
+    "react-fuzzy-highlighter": "^0.3.1",
+    "react-hook-form": "6.1.0",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "react-scripts-ts": "3.1.0",
+    "styled-components": "5.1.1",
+    "styled-tools": "1.7.2",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "prestart:mac": "npx kill-port 3000 3001 3002",
+    "start": "react-scripts-ts start",
+    "start:mac": "react-scripts-ts start",
+    "server": "json-server server.json -p 3333",
+    "build": "npm run lint && npm run build-lib && build-storybook",
+    "build-lib-watch": "tsc -w",
+    "build-lib": "tsc && npm run copy-css-to-lib && npm run copy-svg-to-lib && npm run copy-png-to-lib && npm run copy-woff2-to-lib",
+    "test": "react-scripts-ts test",
+    "test:coverage": "npm test -- --coverage",
+    "eject": "react-scripts-ts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "copy-css-to-lib": "cpx \"./src/**/*.css\" ./build/lib",
+    "copy-woff2-to-lib": "cpx \"./src/**/*.woff2\" ./build/lib",
+    "copy-svg-to-lib": "cpx \"./src/**/*.svg\" ./build/lib",
+    "copy-png-to-lib": "cpx \"./src/**/*.png\" ./build/lib",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "lint-fix": "tslint --fix src/**/*.ts -t verbose"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.4",
+    "@storybook/addon-docs": "5.3.19",
+    "@storybook/addon-info": "5.3.19",
+    "@storybook/preset-create-react-app": "3.1.3",
+    "@storybook/react": "5.3.19",
+    "@types/axios": "0.14.0",
+    "@types/currency-formatter": "^1.3.0",
+    "@types/styled-components": "5.1.1",
+    "@types/yup": "0.29.3",
+    "@typescript-eslint/eslint-plugin": "3.6.0",
+    "@typescript-eslint/parser": "3.6.0",
+    "babel-loader": "8.1.0",
+    "eslint": "7.4.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.20.3",
+    "husky": "4.2.5",
+    "json-server": "^0.16.1",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5",
+    "react-docgen-typescript-loader": "3.7.2",
+    "react-scripts-ts": "3.1.0",
+    "ts-jest": "26.1.1",
+    "ts-loader": "7.0.5",
+    "typescript": "3.7.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
+  }
+}

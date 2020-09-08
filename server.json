@@ -1,0 +1,475 @@
+{
+  "processos": [
+    {
+      "id": 1,
+      "process_number": 48839482,
+      "distribution": "2020/02/15",
+      "customer_situation": "string",
+      "created_at": "2020/02/15",
+      "updated_at": "2020/04/17",
+      "client": {
+        "id": 2,
+        "name": "Carlos Alberto"
+      },
+      "label": {
+        "key": "warning",
+        "name": "Urgente"
+      }
+    },
+    {
+      "id": 2,
+      "process_number": 48839482,
+      "distribution": "2020/05/26",
+      "customer_situation": "string",
+      "created_at": "2020/05/26",
+      "updated_at": "2020/05/26",
+      "client": {
+        "id": 1,
+        "name": "Marcus Martins"
+      },
+      "label": {
+        "key": "success",
+        "name": "Importante"
+      }
+    },
+    {
+      "id": 3,
+      "process_number": 48839482,
+      "distribution": "2020/02/15",
+      "customer_situation": "string",
+      "created_at": "2020/02/15",
+      "updated_at": "2020/04/17",
+      "client": {
+        "id": 2,
+        "name": "Carlos Alberto"
+      },
+      "label": {
+        "key": "danger",
+        "name": "Alta"
+      }
+    },
+    {
+      "id": 4,
+      "process_number": 48839482,
+      "distribution": "2020/02/15",
+      "customer_situation": "string",
+      "created_at": "2020/02/15",
+      "updated_at": "2020/04/17",
+      "client": {
+        "id": 2,
+        "name": "Carlos Alberto"
+      },
+      "label": {
+        "key": "warning",
+        "name": "Urgente"
+      }
+    },
+    {
+      "id": 5,
+      "process_number": 48839482,
+      "distribution": "2020/02/15",
+      "customer_situation": "string",
+      "created_at": "2020/02/15",
+      "updated_at": "2020/04/17",
+      "client": {
+        "id": 2,
+        "name": "Carlos Alberto"
+      },
+      "label": {
+        "key": "warning",
+        "name": "Urgente"
+      }
+    }
+  ],
+
+  "LawSuitServiceGetProps": [
+    {
+      "id": 1,
+      "process_number": "48839482",
+      "customer_situation": "RÉU",
+      "distribution": "string",
+      "created_at": "2020/05/26",
+      "updated_at": "2020/05/26",
+      "judicialDistrict": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "folder": {
+        "id": 1,
+        "name": "4"
+      },
+      "client": {
+        "id": 1,
+        "userId": 2,
+        "name": "Carlos Alberto",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "partAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Arnaldo Freitas",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "lawyerAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Eduardo Antunes",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "jurisdiction": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "jurisdictionDegree": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "juridicalArea": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "procedure": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingStick": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingPlace": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "cause_value": "R$ 2.000,00"
+    },
+    {
+      "id": 2,
+      "process_number": "48839482",
+      "customer_situation": "RÉU",
+      "distribution": "string",
+      "created_at": "2020/05/26",
+      "updated_at": "2020/05/26",
+      "judicialDistrict": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "folder": {
+        "id": 1,
+        "name": "4"
+      },
+      "client": {
+        "id": 1,
+        "userId": 2,
+        "name": "Carlos Alberto",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "partAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Arnaldo Freitas",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "lawyerAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Eduardo Antunes",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "jurisdiction": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "jurisdictionDegree": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "juridicalArea": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "procedure": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingStick": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingPlace": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "cause_value": "R$ 2.000,00"
+    },
+    {
+      "id": 3,
+      "process_number": "48839482",
+      "customer_situation": "RÉU",
+      "distribution": "string",
+      "created_at": "2020/05/26",
+      "updated_at": "2020/05/26",
+      "judicialDistrict": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "folder": {
+        "id": 1,
+        "name": "4"
+      },
+      "client": {
+        "id": 1,
+        "userId": 2,
+        "name": "Carlos Alberto",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "partAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Arnaldo Freitas",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "lawyerAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Eduardo Antunes",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "jurisdiction": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "jurisdictionDegree": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "juridicalArea": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "procedure": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingStick": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingPlace": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "cause_value": "R$ 2.000,00"
+    },
+    {
+      "id": 4,
+      "process_number": "48839482",
+      "customer_situation": "RÉU",
+      "distribution": "string",
+      "created_at": "2020/05/26",
+      "updated_at": "2020/05/26",
+      "judicialDistrict": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "folder": {
+        "id": 1,
+        "name": "4"
+      },
+      "client": {
+        "id": 1,
+        "userId": 2,
+        "name": "Carlos Alberto",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "partAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Arnaldo Freitas",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "lawyerAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Eduardo Antunes",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "jurisdiction": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "jurisdictionDegree": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "juridicalArea": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "procedure": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingStick": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingPlace": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "cause_value": "R$ 2.000,00"
+    },
+    {
+      "id": 5,
+      "process_number": "48839482",
+      "customer_situation": "RÉU",
+      "distribution": "string",
+      "created_at": "2020/05/26",
+      "updated_at": "2020/05/26",
+      "judicialDistrict": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "folder": {
+        "id": 1,
+        "name": "4"
+      },
+      "client": {
+        "id": 1,
+        "userId": 2,
+        "name": "Carlos Alberto",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "partAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Arnaldo Freitas",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "lawyerAgainst": {
+        "id": 1,
+        "userId": 1,
+        "name": "Eduardo Antunes",
+        "type": "string",
+        "createdAt": "string",
+        "updatedAt": "string",
+        "UserId": 1,
+        "user_id": 1
+      },
+      "jurisdiction": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "jurisdictionDegree": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "juridicalArea": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "procedure": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingStick": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "processingPlace": {
+        "id": 1,
+        "name": "XXXXX"
+      },
+      "cause_value": "R$ 2.000,00"
+    }
+  ],
+
+  "fees": [
+    {
+      "id": 1,
+      "value": 1000,
+      "description": "Valor referente à 1ª parcela",
+      "deadline": "2020/05/26",
+      "label": {
+        "key": "warning",
+        "name": "Pendente"
+      }
+    },
+    {
+      "id": 2,
+      "value": 1000,
+      "description": "Valor referente à 1ª parcela",
+      "deadline": "2020/05/26",
+      "label": {
+        "key": "success",
+        "name": "Pago"
+      }
+    },
+    {
+      "id": 3,
+      "value": 1000,
+      "description": "Valor referente à 1ª parcela",
+      "deadline": "2020/05/26",
+      "label": {
+        "key": "danger",
+        "name": "Urgente"
+      }
+    }
+  ]
+}
